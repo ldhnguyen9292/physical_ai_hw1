@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+.pixi/
+eval/
+trajectories/
+replica_v1/
