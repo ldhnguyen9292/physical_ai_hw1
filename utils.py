@@ -1,7 +1,8 @@
 from pathlib import Path
-
+from types import SimpleNamespace
 from scipy.spatial.transform import Rotation
 from scipy.spatial import cKDTree
+
 import cv2
 import open3d as o3d
 import numpy as np
@@ -55,7 +56,6 @@ def depth_image_to_point_cloud(rgb, depth_m, width, height, hfov):
 
     rgb_np = np.asarray(rgb)
     depth_np = np.asarray(depth_m, dtype=np.float64)
-    # Convert horizontal field of view from degrees to radians
     hfov_rad = np.deg2rad(hfov)
 
     if depth_np.shape != (height, width):
@@ -186,7 +186,63 @@ def my_local_icp_algorithm(source_down, target_down, trans_init, voxel_size):
     # TODO: Return a result-like object exposing the final transform as
     # `.transformation`.
 
-    raise NotImplementedError("TODO: implement my_local_icp_algorithm")
+    max_iter = 60
+    tol = 1e-6
+    min_pairs = 10
+    max_dist = voxel_size * 1.5
+
+    src = np.asarray(source_down.points, dtype=np.float64)
+    tgt = np.asarray(target_down.points, dtype=np.float64)
+    T = np.array(trans_init, dtype=np.float64, copy=True)
+
+    if len(src) == 0 or len(tgt) == 0:
+        return SimpleNamespace(transformation=T, fitness=0.0, inlier_rmse=0.0,
+                               correspondence_set=np.zeros((0, 2), dtype=np.int64))
+
+    tree = cKDTree(tgt)
+    prev_err = None
+
+    for _ in range(max_iter):
+        moved = src @ T[:3, :3].T + T[:3, 3]
+        dist, idx = tree.query(moved)
+        inlier = dist < max_dist
+
+        if np.count_nonzero(inlier) < min_pairs:
+            break
+        p = moved[inlier]
+        q = tgt[idx[inlier]]
+
+        mu_p, mu_q = p.mean(axis=0), q.mean(axis=0)
+        H = (p - mu_p).T @ (q - mu_q)
+        U, _, Vt = np.linalg.svd(H)
+        R = Vt.T @ U.T
+
+        if np.linalg.det(R) < 0:
+            Vt[-1, :] *= -1
+            R = Vt.T @ U.T
+        t = mu_q - R @ mu_p
+
+        dT = np.eye(4)
+        dT[:3, :3] = R
+        dT[:3, 3] = t
+        T = dT @ T
+
+        err = float(dist[inlier].mean())
+        if prev_err is not None and abs(prev_err - err) < tol:
+            break
+        prev_err = err
+
+    moved = src @ T[:3, :3].T + T[:3, 3]
+    dist, idx = tree.query(moved)
+    inlier = dist < max_dist
+    n_in = int(np.count_nonzero(inlier))
+    fitness = n_in / len(src)
+    rmse = float(np.sqrt(np.mean(dist[inlier] ** 2))) if n_in else 0.0
+    corr = np.stack([np.flatnonzero(inlier), idx[inlier]], axis=1)
+    return SimpleNamespace(transformation=T, fitness=fitness, inlier_rmse=rmse,
+                           correspondence_set=corr)
+
+    # raise NotImplementedError("TODO: implement my_local_icp_algorithm")
 
 
 def remove_ceiling_points(point_cloud, margin=1.0):

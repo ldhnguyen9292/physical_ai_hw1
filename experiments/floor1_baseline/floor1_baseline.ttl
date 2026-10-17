@@ -6,9 +6,11 @@
 # digest-sealed — a new idea is a NEW file under a NEW name (§3.1).
 #
 # PREDICTION (write BEFORE assessing — the seal makes it non-retractable):
-#   pipeline: TODO — which automatically measured pipeline factors you
-#             expect to fail, and why
-#   baseline: TODO — expected mapMeanL2 band and verdict for the full-batch run
+#   pipeline: expect RawPointCount to drop on frames with missing depth, and
+#             ICPInlierFitness / CoarseRANSACFitness to drop on pairs with
+#             large motion or sparse geometry (low VoxelizedPointYield).
+#   baseline: expect mapMeanL2 around 0.1-0.2 m; trajectory follows GT but
+#             drifts after the degraded segments.
 # =============================================================================
 
 @prefix hw1:  <http://taica.course/hw1/ontology#> .
@@ -28,7 +30,7 @@
 exp:floor1_baseline
     a hw1:Experiment ;
     hw1:schemaVersion "7.0.0" ;
-    rdfs:label "TODO: one line naming the condition this experiment tests"@en ;
+    rdfs:label "Floor 1 full-batch baseline, open3d point-to-plane ICP, voxel 0.05 m"@en ;
     hw1:batchFile "eval/first_floor" ;
     hw1:onBatch batch:floor1_first_floor .   # floor1_first_floor
 
