@@ -1,0 +1,12 @@
+# Phuong an A: bo 10 khung nhieu depth nang, nam tren doan di thang,
+# khong bo 2 khung lien nhau (bo 1 khung -> buoc nhay <= 0.5 m, <= 10 deg).
+# Chay voi voxel mac dinh 0.05.
+PREFIX hw1: <http://taica.course/hw1/ontology#>
+PREFIX exp: <http://taica.course/hw1/experiment/>
+SELECT DISTINCT ?frameIndex WHERE {
+  exp:floor1_baseline hw1:onBatch ?batch .
+  ?batch hw1:hasFrame ?frame .
+  ?frame hw1:frameIndex ?frameIndex .
+  FILTER (?frameIndex NOT IN (71, 83, 96, 98, 100, 114, 116, 120, 122, 133))
+}
+ORDER BY ?frameIndex

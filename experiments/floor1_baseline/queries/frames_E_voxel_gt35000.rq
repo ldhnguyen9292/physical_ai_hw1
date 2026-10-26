@@ -1,0 +1,15 @@
+# Phuong an E (kieu vi du cua thay): bo khung co VoxelizedPointYield > 35000
+# (voxel yield cao bat thuong = depth nhieu lam diem tan ra nhieu o voxel)
+PREFIX hw1: <http://taica.course/hw1/ontology#>
+PREFIX exp: <http://taica.course/hw1/experiment/>
+SELECT DISTINCT ?frameIndex WHERE {
+  exp:floor1_baseline hw1:onBatch ?batch .
+  ?batch hw1:hasFrame ?frame .
+  ?frame hw1:frameIndex ?frameIndex ; hw1:hasDepthImage ?depth .
+  FILTER NOT EXISTS { ?sOcc a hw1:SingleImageFactor ; hw1:inExperiment exp:floor1_baseline ;
+      hw1:hasCurrentFrame ?depth ; hw1:value ?sv ; hw1:hasDefinition hw1:VoxelizedPointYield .
+      FILTER (?sv > 35000) }
+  FILTER NOT EXISTS { ?pOcc a hw1:DepthPairFactor ; hw1:inExperiment exp:floor1_baseline ;
+      hw1:hasCurrentFrame ?depth ; hw1:value ?pv ; hw1:hasDefinition hw1:ICPInlierFitness .
+      FILTER (?pv < 0.05) }
+} ORDER BY ?frameIndex

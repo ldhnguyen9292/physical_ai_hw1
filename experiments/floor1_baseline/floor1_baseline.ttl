@@ -13562,80 +13562,10 @@ batch:floor1_first_floor a hw1:Batch ;
         frame:98,
         frame:99 .
 
-frame:100 a hw1:Frame ;
-    hw1:frameIndex 100 ;
-    hw1:hasDepthImage depth:100 ;
-    hw1:hasRGBImage rgb:100 .
-
-frame:101 a hw1:Frame ;
-    hw1:frameIndex 101 ;
-    hw1:hasDepthImage depth:101 ;
-    hw1:hasRGBImage rgb:101 .
-
-frame:102 a hw1:Frame ;
-    hw1:frameIndex 102 ;
-    hw1:hasDepthImage depth:102 ;
-    hw1:hasRGBImage rgb:102 .
-
-frame:103 a hw1:Frame ;
-    hw1:frameIndex 103 ;
-    hw1:hasDepthImage depth:103 ;
-    hw1:hasRGBImage rgb:103 .
-
-frame:104 a hw1:Frame ;
-    hw1:frameIndex 104 ;
-    hw1:hasDepthImage depth:104 ;
-    hw1:hasRGBImage rgb:104 .
-
-frame:105 a hw1:Frame ;
-    hw1:frameIndex 105 ;
-    hw1:hasDepthImage depth:105 ;
-    hw1:hasRGBImage rgb:105 .
-
-frame:106 a hw1:Frame ;
-    hw1:frameIndex 106 ;
-    hw1:hasDepthImage depth:106 ;
-    hw1:hasRGBImage rgb:106 .
-
-frame:107 a hw1:Frame ;
-    hw1:frameIndex 107 ;
-    hw1:hasDepthImage depth:107 ;
-    hw1:hasRGBImage rgb:107 .
-
-frame:108 a hw1:Frame ;
-    hw1:frameIndex 108 ;
-    hw1:hasDepthImage depth:108 ;
-    hw1:hasRGBImage rgb:108 .
-
-frame:109 a hw1:Frame ;
-    hw1:frameIndex 109 ;
-    hw1:hasDepthImage depth:109 ;
-    hw1:hasRGBImage rgb:109 .
-
-frame:110 a hw1:Frame ;
-    hw1:frameIndex 110 ;
-    hw1:hasDepthImage depth:110 ;
-    hw1:hasRGBImage rgb:110 .
-
-frame:111 a hw1:Frame ;
-    hw1:frameIndex 111 ;
-    hw1:hasDepthImage depth:111 ;
-    hw1:hasRGBImage rgb:111 .
-
-frame:112 a hw1:Frame ;
-    hw1:frameIndex 112 ;
-    hw1:hasDepthImage depth:112 ;
-    hw1:hasRGBImage rgb:112 .
-
 frame:113 a hw1:Frame ;
     hw1:frameIndex 113 ;
     hw1:hasDepthImage depth:113 ;
     hw1:hasRGBImage rgb:113 .
-
-frame:114 a hw1:Frame ;
-    hw1:frameIndex 114 ;
-    hw1:hasDepthImage depth:114 ;
-    hw1:hasRGBImage rgb:114 .
 
 frame:115 a hw1:Frame ;
     hw1:frameIndex 115 ;
@@ -13646,41 +13576,6 @@ frame:116 a hw1:Frame ;
     hw1:frameIndex 116 ;
     hw1:hasDepthImage depth:116 ;
     hw1:hasRGBImage rgb:116 .
-
-frame:117 a hw1:Frame ;
-    hw1:frameIndex 117 ;
-    hw1:hasDepthImage depth:117 ;
-    hw1:hasRGBImage rgb:117 .
-
-frame:118 a hw1:Frame ;
-    hw1:frameIndex 118 ;
-    hw1:hasDepthImage depth:118 ;
-    hw1:hasRGBImage rgb:118 .
-
-frame:119 a hw1:Frame ;
-    hw1:frameIndex 119 ;
-    hw1:hasDepthImage depth:119 ;
-    hw1:hasRGBImage rgb:119 .
-
-frame:120 a hw1:Frame ;
-    hw1:frameIndex 120 ;
-    hw1:hasDepthImage depth:120 ;
-    hw1:hasRGBImage rgb:120 .
-
-frame:121 a hw1:Frame ;
-    hw1:frameIndex 121 ;
-    hw1:hasDepthImage depth:121 ;
-    hw1:hasRGBImage rgb:121 .
-
-frame:122 a hw1:Frame ;
-    hw1:frameIndex 122 ;
-    hw1:hasDepthImage depth:122 ;
-    hw1:hasRGBImage rgb:122 .
-
-frame:123 a hw1:Frame ;
-    hw1:frameIndex 123 ;
-    hw1:hasDepthImage depth:123 ;
-    hw1:hasRGBImage rgb:123 .
 
 frame:124 a hw1:Frame ;
     hw1:frameIndex 124 ;
@@ -13701,11 +13596,6 @@ frame:127 a hw1:Frame ;
     hw1:frameIndex 127 ;
     hw1:hasDepthImage depth:127 ;
     hw1:hasRGBImage rgb:127 .
-
-frame:128 a hw1:Frame ;
-    hw1:frameIndex 128 ;
-    hw1:hasDepthImage depth:128 ;
-    hw1:hasRGBImage rgb:128 .
 
 frame:129 a hw1:Frame ;
     hw1:frameIndex 129 ;
@@ -13731,191 +13621,6 @@ frame:133 a hw1:Frame ;
     hw1:frameIndex 133 ;
     hw1:hasDepthImage depth:133 ;
     hw1:hasRGBImage rgb:133 .
-
-frame:46 a hw1:Frame ;
-    hw1:frameIndex 46 ;
-    hw1:hasDepthImage depth:46 ;
-    hw1:hasRGBImage rgb:46 .
-
-frame:49 a hw1:Frame ;
-    hw1:frameIndex 49 ;
-    hw1:hasDepthImage depth:49 ;
-    hw1:hasRGBImage rgb:49 .
-
-frame:50 a hw1:Frame ;
-    hw1:frameIndex 50 ;
-    hw1:hasDepthImage depth:50 ;
-    hw1:hasRGBImage rgb:50 .
-
-frame:51 a hw1:Frame ;
-    hw1:frameIndex 51 ;
-    hw1:hasDepthImage depth:51 ;
-    hw1:hasRGBImage rgb:51 .
-
-frame:52 a hw1:Frame ;
-    hw1:frameIndex 52 ;
-    hw1:hasDepthImage depth:52 ;
-    hw1:hasRGBImage rgb:52 .
-
-frame:53 a hw1:Frame ;
-    hw1:frameIndex 53 ;
-    hw1:hasDepthImage depth:53 ;
-    hw1:hasRGBImage rgb:53 .
-
-frame:54 a hw1:Frame ;
-    hw1:frameIndex 54 ;
-    hw1:hasDepthImage depth:54 ;
-    hw1:hasRGBImage rgb:54 .
-
-frame:55 a hw1:Frame ;
-    hw1:frameIndex 55 ;
-    hw1:hasDepthImage depth:55 ;
-    hw1:hasRGBImage rgb:55 .
-
-frame:71 a hw1:Frame ;
-    hw1:frameIndex 71 ;
-    hw1:hasDepthImage depth:71 ;
-    hw1:hasRGBImage rgb:71 .
-
-frame:72 a hw1:Frame ;
-    hw1:frameIndex 72 ;
-    hw1:hasDepthImage depth:72 ;
-    hw1:hasRGBImage rgb:72 .
-
-frame:73 a hw1:Frame ;
-    hw1:frameIndex 73 ;
-    hw1:hasDepthImage depth:73 ;
-    hw1:hasRGBImage rgb:73 .
-
-frame:74 a hw1:Frame ;
-    hw1:frameIndex 74 ;
-    hw1:hasDepthImage depth:74 ;
-    hw1:hasRGBImage rgb:74 .
-
-frame:75 a hw1:Frame ;
-    hw1:frameIndex 75 ;
-    hw1:hasDepthImage depth:75 ;
-    hw1:hasRGBImage rgb:75 .
-
-frame:76 a hw1:Frame ;
-    hw1:frameIndex 76 ;
-    hw1:hasDepthImage depth:76 ;
-    hw1:hasRGBImage rgb:76 .
-
-frame:77 a hw1:Frame ;
-    hw1:frameIndex 77 ;
-    hw1:hasDepthImage depth:77 ;
-    hw1:hasRGBImage rgb:77 .
-
-frame:78 a hw1:Frame ;
-    hw1:frameIndex 78 ;
-    hw1:hasDepthImage depth:78 ;
-    hw1:hasRGBImage rgb:78 .
-
-frame:79 a hw1:Frame ;
-    hw1:frameIndex 79 ;
-    hw1:hasDepthImage depth:79 ;
-    hw1:hasRGBImage rgb:79 .
-
-frame:80 a hw1:Frame ;
-    hw1:frameIndex 80 ;
-    hw1:hasDepthImage depth:80 ;
-    hw1:hasRGBImage rgb:80 .
-
-frame:81 a hw1:Frame ;
-    hw1:frameIndex 81 ;
-    hw1:hasDepthImage depth:81 ;
-    hw1:hasRGBImage rgb:81 .
-
-frame:82 a hw1:Frame ;
-    hw1:frameIndex 82 ;
-    hw1:hasDepthImage depth:82 ;
-    hw1:hasRGBImage rgb:82 .
-
-frame:83 a hw1:Frame ;
-    hw1:frameIndex 83 ;
-    hw1:hasDepthImage depth:83 ;
-    hw1:hasRGBImage rgb:83 .
-
-frame:84 a hw1:Frame ;
-    hw1:frameIndex 84 ;
-    hw1:hasDepthImage depth:84 ;
-    hw1:hasRGBImage rgb:84 .
-
-frame:85 a hw1:Frame ;
-    hw1:frameIndex 85 ;
-    hw1:hasDepthImage depth:85 ;
-    hw1:hasRGBImage rgb:85 .
-
-frame:86 a hw1:Frame ;
-    hw1:frameIndex 86 ;
-    hw1:hasDepthImage depth:86 ;
-    hw1:hasRGBImage rgb:86 .
-
-frame:87 a hw1:Frame ;
-    hw1:frameIndex 87 ;
-    hw1:hasDepthImage depth:87 ;
-    hw1:hasRGBImage rgb:87 .
-
-frame:88 a hw1:Frame ;
-    hw1:frameIndex 88 ;
-    hw1:hasDepthImage depth:88 ;
-    hw1:hasRGBImage rgb:88 .
-
-frame:89 a hw1:Frame ;
-    hw1:frameIndex 89 ;
-    hw1:hasDepthImage depth:89 ;
-    hw1:hasRGBImage rgb:89 .
-
-frame:90 a hw1:Frame ;
-    hw1:frameIndex 90 ;
-    hw1:hasDepthImage depth:90 ;
-    hw1:hasRGBImage rgb:90 .
-
-frame:91 a hw1:Frame ;
-    hw1:frameIndex 91 ;
-    hw1:hasDepthImage depth:91 ;
-    hw1:hasRGBImage rgb:91 .
-
-frame:92 a hw1:Frame ;
-    hw1:frameIndex 92 ;
-    hw1:hasDepthImage depth:92 ;
-    hw1:hasRGBImage rgb:92 .
-
-frame:93 a hw1:Frame ;
-    hw1:frameIndex 93 ;
-    hw1:hasDepthImage depth:93 ;
-    hw1:hasRGBImage rgb:93 .
-
-frame:94 a hw1:Frame ;
-    hw1:frameIndex 94 ;
-    hw1:hasDepthImage depth:94 ;
-    hw1:hasRGBImage rgb:94 .
-
-frame:95 a hw1:Frame ;
-    hw1:frameIndex 95 ;
-    hw1:hasDepthImage depth:95 ;
-    hw1:hasRGBImage rgb:95 .
-
-frame:96 a hw1:Frame ;
-    hw1:frameIndex 96 ;
-    hw1:hasDepthImage depth:96 ;
-    hw1:hasRGBImage rgb:96 .
-
-frame:97 a hw1:Frame ;
-    hw1:frameIndex 97 ;
-    hw1:hasDepthImage depth:97 ;
-    hw1:hasRGBImage rgb:97 .
-
-frame:98 a hw1:Frame ;
-    hw1:frameIndex 98 ;
-    hw1:hasDepthImage depth:98 ;
-    hw1:hasRGBImage rgb:98 .
-
-frame:99 a hw1:Frame ;
-    hw1:frameIndex 99 ;
-    hw1:hasDepthImage depth:99 ;
-    hw1:hasRGBImage rgb:99 .
 
 rgb:1 a hw1:RGBImage ;
     schema:contentUrl "/Users/nguyenle/Desktop/tmu/semeter_2/Physical AI/homework/physical_ai_hw1/eval/first_floor/rgb/1.png" .
@@ -14496,15 +14201,37 @@ run:baseline a hw1:ReconstructionRun ;
     hw1:selectionMode hw1:FullBatch .
 
 run:selected a hw1:ReconstructionRun ;
-    hw1:mapMeanL2 2.331497e+00 ;
-    hw1:maxGapLength 63 ;
-    hw1:runFrameCount 120 ;
+    hw1:mapMeanL2 1.449877e-01 ;
+    hw1:maxGapLength 5 ;
+    hw1:runFrameCount 179 ;
     hw1:selectionMode hw1:GoodSegments ;
-    hw1:spliceCount 3 ;
+    hw1:spliceCount 4 ;
     hw1:usedFrame frame:1,
         frame:10,
+        frame:100,
+        frame:101,
+        frame:102,
+        frame:103,
+        frame:104,
+        frame:105,
+        frame:106,
+        frame:107,
+        frame:108,
+        frame:109,
         frame:11,
+        frame:110,
+        frame:111,
+        frame:112,
+        frame:114,
+        frame:117,
+        frame:118,
+        frame:119,
         frame:12,
+        frame:120,
+        frame:121,
+        frame:122,
+        frame:123,
+        frame:128,
         frame:13,
         frame:134,
         frame:135,
@@ -14599,9 +14326,17 @@ run:selected a hw1:ReconstructionRun ;
         frame:43,
         frame:44,
         frame:45,
+        frame:46,
         frame:47,
         frame:48,
+        frame:49,
         frame:5,
+        frame:50,
+        frame:51,
+        frame:52,
+        frame:53,
+        frame:54,
+        frame:55,
         frame:56,
         frame:57,
         frame:58,
@@ -14619,8 +14354,37 @@ run:selected a hw1:ReconstructionRun ;
         frame:69,
         frame:7,
         frame:70,
+        frame:71,
+        frame:72,
+        frame:73,
+        frame:74,
+        frame:75,
+        frame:76,
+        frame:77,
+        frame:78,
+        frame:79,
         frame:8,
-        frame:9 .
+        frame:80,
+        frame:81,
+        frame:82,
+        frame:83,
+        frame:84,
+        frame:85,
+        frame:86,
+        frame:87,
+        frame:88,
+        frame:89,
+        frame:9,
+        frame:90,
+        frame:91,
+        frame:92,
+        frame:93,
+        frame:94,
+        frame:95,
+        frame:96,
+        frame:97,
+        frame:98,
+        frame:99 .
 
 setting:ReconstructionRun_icpBackend a hw1:FactorSetting ;
     hw1:settingForFactor hw1:ReconstructionRun ;
@@ -14638,15 +14402,125 @@ frame:10 a hw1:Frame ;
     hw1:hasDepthImage depth:10 ;
     hw1:hasRGBImage rgb:10 .
 
+frame:100 a hw1:Frame ;
+    hw1:frameIndex 100 ;
+    hw1:hasDepthImage depth:100 ;
+    hw1:hasRGBImage rgb:100 .
+
+frame:101 a hw1:Frame ;
+    hw1:frameIndex 101 ;
+    hw1:hasDepthImage depth:101 ;
+    hw1:hasRGBImage rgb:101 .
+
+frame:102 a hw1:Frame ;
+    hw1:frameIndex 102 ;
+    hw1:hasDepthImage depth:102 ;
+    hw1:hasRGBImage rgb:102 .
+
+frame:103 a hw1:Frame ;
+    hw1:frameIndex 103 ;
+    hw1:hasDepthImage depth:103 ;
+    hw1:hasRGBImage rgb:103 .
+
+frame:104 a hw1:Frame ;
+    hw1:frameIndex 104 ;
+    hw1:hasDepthImage depth:104 ;
+    hw1:hasRGBImage rgb:104 .
+
+frame:105 a hw1:Frame ;
+    hw1:frameIndex 105 ;
+    hw1:hasDepthImage depth:105 ;
+    hw1:hasRGBImage rgb:105 .
+
+frame:106 a hw1:Frame ;
+    hw1:frameIndex 106 ;
+    hw1:hasDepthImage depth:106 ;
+    hw1:hasRGBImage rgb:106 .
+
+frame:107 a hw1:Frame ;
+    hw1:frameIndex 107 ;
+    hw1:hasDepthImage depth:107 ;
+    hw1:hasRGBImage rgb:107 .
+
+frame:108 a hw1:Frame ;
+    hw1:frameIndex 108 ;
+    hw1:hasDepthImage depth:108 ;
+    hw1:hasRGBImage rgb:108 .
+
+frame:109 a hw1:Frame ;
+    hw1:frameIndex 109 ;
+    hw1:hasDepthImage depth:109 ;
+    hw1:hasRGBImage rgb:109 .
+
 frame:11 a hw1:Frame ;
     hw1:frameIndex 11 ;
     hw1:hasDepthImage depth:11 ;
     hw1:hasRGBImage rgb:11 .
 
+frame:110 a hw1:Frame ;
+    hw1:frameIndex 110 ;
+    hw1:hasDepthImage depth:110 ;
+    hw1:hasRGBImage rgb:110 .
+
+frame:111 a hw1:Frame ;
+    hw1:frameIndex 111 ;
+    hw1:hasDepthImage depth:111 ;
+    hw1:hasRGBImage rgb:111 .
+
+frame:112 a hw1:Frame ;
+    hw1:frameIndex 112 ;
+    hw1:hasDepthImage depth:112 ;
+    hw1:hasRGBImage rgb:112 .
+
+frame:114 a hw1:Frame ;
+    hw1:frameIndex 114 ;
+    hw1:hasDepthImage depth:114 ;
+    hw1:hasRGBImage rgb:114 .
+
+frame:117 a hw1:Frame ;
+    hw1:frameIndex 117 ;
+    hw1:hasDepthImage depth:117 ;
+    hw1:hasRGBImage rgb:117 .
+
+frame:118 a hw1:Frame ;
+    hw1:frameIndex 118 ;
+    hw1:hasDepthImage depth:118 ;
+    hw1:hasRGBImage rgb:118 .
+
+frame:119 a hw1:Frame ;
+    hw1:frameIndex 119 ;
+    hw1:hasDepthImage depth:119 ;
+    hw1:hasRGBImage rgb:119 .
+
 frame:12 a hw1:Frame ;
     hw1:frameIndex 12 ;
     hw1:hasDepthImage depth:12 ;
     hw1:hasRGBImage rgb:12 .
+
+frame:120 a hw1:Frame ;
+    hw1:frameIndex 120 ;
+    hw1:hasDepthImage depth:120 ;
+    hw1:hasRGBImage rgb:120 .
+
+frame:121 a hw1:Frame ;
+    hw1:frameIndex 121 ;
+    hw1:hasDepthImage depth:121 ;
+    hw1:hasRGBImage rgb:121 .
+
+frame:122 a hw1:Frame ;
+    hw1:frameIndex 122 ;
+    hw1:hasDepthImage depth:122 ;
+    hw1:hasRGBImage rgb:122 .
+
+frame:123 a hw1:Frame ;
+    hw1:frameIndex 123 ;
+    hw1:hasDepthImage depth:123 ;
+    hw1:hasRGBImage rgb:123 .
+
+frame:128 a hw1:Frame ;
+    hw1:frameIndex 128 ;
+    hw1:hasDepthImage depth:128 ;
+    hw1:hasRGBImage rgb:128 .
 
 frame:13 a hw1:Frame ;
     hw1:frameIndex 13 ;
@@ -15118,6 +14992,11 @@ frame:45 a hw1:Frame ;
     hw1:hasDepthImage depth:45 ;
     hw1:hasRGBImage rgb:45 .
 
+frame:46 a hw1:Frame ;
+    hw1:frameIndex 46 ;
+    hw1:hasDepthImage depth:46 ;
+    hw1:hasRGBImage rgb:46 .
+
 frame:47 a hw1:Frame ;
     hw1:frameIndex 47 ;
     hw1:hasDepthImage depth:47 ;
@@ -15128,10 +15007,45 @@ frame:48 a hw1:Frame ;
     hw1:hasDepthImage depth:48 ;
     hw1:hasRGBImage rgb:48 .
 
+frame:49 a hw1:Frame ;
+    hw1:frameIndex 49 ;
+    hw1:hasDepthImage depth:49 ;
+    hw1:hasRGBImage rgb:49 .
+
 frame:5 a hw1:Frame ;
     hw1:frameIndex 5 ;
     hw1:hasDepthImage depth:5 ;
     hw1:hasRGBImage rgb:5 .
+
+frame:50 a hw1:Frame ;
+    hw1:frameIndex 50 ;
+    hw1:hasDepthImage depth:50 ;
+    hw1:hasRGBImage rgb:50 .
+
+frame:51 a hw1:Frame ;
+    hw1:frameIndex 51 ;
+    hw1:hasDepthImage depth:51 ;
+    hw1:hasRGBImage rgb:51 .
+
+frame:52 a hw1:Frame ;
+    hw1:frameIndex 52 ;
+    hw1:hasDepthImage depth:52 ;
+    hw1:hasRGBImage rgb:52 .
+
+frame:53 a hw1:Frame ;
+    hw1:frameIndex 53 ;
+    hw1:hasDepthImage depth:53 ;
+    hw1:hasRGBImage rgb:53 .
+
+frame:54 a hw1:Frame ;
+    hw1:frameIndex 54 ;
+    hw1:hasDepthImage depth:54 ;
+    hw1:hasRGBImage rgb:54 .
+
+frame:55 a hw1:Frame ;
+    hw1:frameIndex 55 ;
+    hw1:hasDepthImage depth:55 ;
+    hw1:hasRGBImage rgb:55 .
 
 frame:56 a hw1:Frame ;
     hw1:frameIndex 56 ;
@@ -15218,15 +15132,160 @@ frame:70 a hw1:Frame ;
     hw1:hasDepthImage depth:70 ;
     hw1:hasRGBImage rgb:70 .
 
+frame:71 a hw1:Frame ;
+    hw1:frameIndex 71 ;
+    hw1:hasDepthImage depth:71 ;
+    hw1:hasRGBImage rgb:71 .
+
+frame:72 a hw1:Frame ;
+    hw1:frameIndex 72 ;
+    hw1:hasDepthImage depth:72 ;
+    hw1:hasRGBImage rgb:72 .
+
+frame:73 a hw1:Frame ;
+    hw1:frameIndex 73 ;
+    hw1:hasDepthImage depth:73 ;
+    hw1:hasRGBImage rgb:73 .
+
+frame:74 a hw1:Frame ;
+    hw1:frameIndex 74 ;
+    hw1:hasDepthImage depth:74 ;
+    hw1:hasRGBImage rgb:74 .
+
+frame:75 a hw1:Frame ;
+    hw1:frameIndex 75 ;
+    hw1:hasDepthImage depth:75 ;
+    hw1:hasRGBImage rgb:75 .
+
+frame:76 a hw1:Frame ;
+    hw1:frameIndex 76 ;
+    hw1:hasDepthImage depth:76 ;
+    hw1:hasRGBImage rgb:76 .
+
+frame:77 a hw1:Frame ;
+    hw1:frameIndex 77 ;
+    hw1:hasDepthImage depth:77 ;
+    hw1:hasRGBImage rgb:77 .
+
+frame:78 a hw1:Frame ;
+    hw1:frameIndex 78 ;
+    hw1:hasDepthImage depth:78 ;
+    hw1:hasRGBImage rgb:78 .
+
+frame:79 a hw1:Frame ;
+    hw1:frameIndex 79 ;
+    hw1:hasDepthImage depth:79 ;
+    hw1:hasRGBImage rgb:79 .
+
 frame:8 a hw1:Frame ;
     hw1:frameIndex 8 ;
     hw1:hasDepthImage depth:8 ;
     hw1:hasRGBImage rgb:8 .
 
+frame:80 a hw1:Frame ;
+    hw1:frameIndex 80 ;
+    hw1:hasDepthImage depth:80 ;
+    hw1:hasRGBImage rgb:80 .
+
+frame:81 a hw1:Frame ;
+    hw1:frameIndex 81 ;
+    hw1:hasDepthImage depth:81 ;
+    hw1:hasRGBImage rgb:81 .
+
+frame:82 a hw1:Frame ;
+    hw1:frameIndex 82 ;
+    hw1:hasDepthImage depth:82 ;
+    hw1:hasRGBImage rgb:82 .
+
+frame:83 a hw1:Frame ;
+    hw1:frameIndex 83 ;
+    hw1:hasDepthImage depth:83 ;
+    hw1:hasRGBImage rgb:83 .
+
+frame:84 a hw1:Frame ;
+    hw1:frameIndex 84 ;
+    hw1:hasDepthImage depth:84 ;
+    hw1:hasRGBImage rgb:84 .
+
+frame:85 a hw1:Frame ;
+    hw1:frameIndex 85 ;
+    hw1:hasDepthImage depth:85 ;
+    hw1:hasRGBImage rgb:85 .
+
+frame:86 a hw1:Frame ;
+    hw1:frameIndex 86 ;
+    hw1:hasDepthImage depth:86 ;
+    hw1:hasRGBImage rgb:86 .
+
+frame:87 a hw1:Frame ;
+    hw1:frameIndex 87 ;
+    hw1:hasDepthImage depth:87 ;
+    hw1:hasRGBImage rgb:87 .
+
+frame:88 a hw1:Frame ;
+    hw1:frameIndex 88 ;
+    hw1:hasDepthImage depth:88 ;
+    hw1:hasRGBImage rgb:88 .
+
+frame:89 a hw1:Frame ;
+    hw1:frameIndex 89 ;
+    hw1:hasDepthImage depth:89 ;
+    hw1:hasRGBImage rgb:89 .
+
 frame:9 a hw1:Frame ;
     hw1:frameIndex 9 ;
     hw1:hasDepthImage depth:9 ;
     hw1:hasRGBImage rgb:9 .
+
+frame:90 a hw1:Frame ;
+    hw1:frameIndex 90 ;
+    hw1:hasDepthImage depth:90 ;
+    hw1:hasRGBImage rgb:90 .
+
+frame:91 a hw1:Frame ;
+    hw1:frameIndex 91 ;
+    hw1:hasDepthImage depth:91 ;
+    hw1:hasRGBImage rgb:91 .
+
+frame:92 a hw1:Frame ;
+    hw1:frameIndex 92 ;
+    hw1:hasDepthImage depth:92 ;
+    hw1:hasRGBImage rgb:92 .
+
+frame:93 a hw1:Frame ;
+    hw1:frameIndex 93 ;
+    hw1:hasDepthImage depth:93 ;
+    hw1:hasRGBImage rgb:93 .
+
+frame:94 a hw1:Frame ;
+    hw1:frameIndex 94 ;
+    hw1:hasDepthImage depth:94 ;
+    hw1:hasRGBImage rgb:94 .
+
+frame:95 a hw1:Frame ;
+    hw1:frameIndex 95 ;
+    hw1:hasDepthImage depth:95 ;
+    hw1:hasRGBImage rgb:95 .
+
+frame:96 a hw1:Frame ;
+    hw1:frameIndex 96 ;
+    hw1:hasDepthImage depth:96 ;
+    hw1:hasRGBImage rgb:96 .
+
+frame:97 a hw1:Frame ;
+    hw1:frameIndex 97 ;
+    hw1:hasDepthImage depth:97 ;
+    hw1:hasRGBImage rgb:97 .
+
+frame:98 a hw1:Frame ;
+    hw1:frameIndex 98 ;
+    hw1:hasDepthImage depth:98 ;
+    hw1:hasRGBImage rgb:98 .
+
+frame:99 a hw1:Frame ;
+    hw1:frameIndex 99 ;
+    hw1:hasDepthImage depth:99 ;
+    hw1:hasRGBImage rgb:99 .
 
 depth:1 a hw1:DepthImage ;
     schema:contentUrl "/Users/nguyenle/Desktop/tmu/semeter_2/Physical AI/homework/physical_ai_hw1/eval/first_floor/depth/1.png" .
